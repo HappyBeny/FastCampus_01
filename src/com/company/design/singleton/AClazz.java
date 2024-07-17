@@ -6,6 +6,7 @@ public class AClazz {
 
     public AClazz() {
         this.socketClient = socketClient.getInstance();
+        //this.socketClient = new SocketClient();
     }
 
     public SocketClient getSocketClient() {

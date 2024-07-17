@@ -4,13 +4,13 @@ public class SocketClient {
 
     private static SocketClient socketClient = null;
 
-    private  SocketClient(){
+    private SocketClient(){
 
     }
 
-    public SocketClient getInstance() {
+    public static SocketClient getInstance() {
         if (socketClient == null) {
-            socketClient= new SocketClient();
+            socketClient = new SocketClient();
         }
         return socketClient;
     }
