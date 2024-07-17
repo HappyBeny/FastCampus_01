@@ -1,2 +1,4 @@
-package com.company.design.decorator;public class AudiDecorator {
+package com.company.design.decorator;
+
+public class AudiDecorator {
 }
