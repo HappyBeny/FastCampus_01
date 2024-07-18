@@ -1,5 +1,5 @@
 package com.company.design.adapter;
 
-public interface Electronic110V {
-    void powerOn();
+public interface Electronic220V {
+    void connect();
 }
