@@ -1,2 +1,5 @@
-package com.company.design.observer;public class IButtonListener {
+package com.company.design.observer;
+
+public interface IButtonListener {
+    void clickEvent(String event);
 }
