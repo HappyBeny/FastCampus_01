@@ -1,2 +1,5 @@
-package com.company.design.stratagy;public class EncodingStrategy {
+package com.company.design.strategy;
+
+public interface EncodingStrategy {
+    String encode(String text);
 }
