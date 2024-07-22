@@ -12,6 +12,9 @@ public class SingletonMain {
         SocketClient aClient = aClazz.getSocketClient();
         SocketClient bClient = bClazz.getSocketClient();
 
+        aClient.connect();
+        bClient.connect();
+
         System.out.println("두 개의 객체가 동일한가?");
         System.out.println(aClient.equals(bClient));
     }
