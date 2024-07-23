@@ -38,6 +38,7 @@ public class Planner {
         System.out.print("계획 수정을 원하는 요일을 세 글자로 입력해주세요(ex_mon) : ");
         String day = scanner.nextLine();
         day = Character.toUpperCase(day.charAt(0)) + day.substring(1);
+        //DayOfWeek dayOfWeek = day; 이거 왜 안됨
 
         System.out.println(day);
     }
